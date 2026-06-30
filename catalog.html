@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+
+<body>
+    <!-- Фон звездного неба -->
+    <div class="stars-bg"></div>
+
+    <!-- Шапка сайта -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <!-- Логотип -->
+                <a href="index.html" class="nav-logo">
+                    <img src="images/logo.png" alt="Лого" class="logo-icon">
+                    <div class="logo-title">
+                        Земельные участки на <span class="mars-word">Марсе</span> и <span class="moon-word">Луне</span>
+                    </div>
+                </a>
+                <!-- Меню -->
+                <label for="menu-toggle" class="menu">
+                    <img src="images/menu.png" alt="Меню">
+                </label>
+                <input type="checkbox" id="menu-toggle">
+                <!-- Навигация -->
+                <div class="nav-links">
+                    <a href="catalog.html" class="nav-link">Каталог</a>
+                    <a href="index.html#why" class="nav-link">О компании</a>
+                    <a href="#footer" class="nav-link">Контакты</a>
+                    <a href="#" class="button">Войти</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Страница каталога -->
+    <main class="catalog">
+        <div class="container">
+            <div class="catalog-head">
+                <h1 class="catalog-title">Доступные участки: Марс и Луна</h1>
+                <button class="button button-filter">Фильтр</button>
+            </div>
+            <div class="cards">
+
+                <!-- Карточка 1 -->
+                <div class="card">
+                    <div class="card-img">
+                        <img src="images/mars1.png" alt="Марс - ровный рельеф">
+                    </div>
+                    <div class="card-body">
+                        <h2 class="card-price">2 290 000 ₽</h2>
+                        <hr>
+                        <div class="card-info">
+                            <p>1.2 га (ровный рельеф)</p>
+                            <p>850 км до колонии</p>
+                        </div>
+                        <button class="button card-btn">Купить участок</button>
+                    </div>
+                </div>
+
+                <!-- Карточка 2 -->
+                <div class="card">
+                    <div class="card-img">
+                        <img src="images/mars2.png" alt="Марс - каньен">
+                    </div>
+                    <div class="card-body">
+                        <h2 class="card-price">3 490 000 ₽</h2>
+                        <hr>
+                        <div class="card-info">
+                            <p>2.5 га (каньен)</p>
+                            <p>1200 км до колонии</p>
+                        </div>
+                        <button class="button card-btn">Купить участок</button>
+                    </div>
+                </div>
+
+                <!-- Карточка 3 -->
+                <div class="card">
+                    <div class="card-img">
+                        <img src="images/moon1.png" alt="Луна - кратер">
+                    </div>
+                    <div class="card-body">
+                        <h2 class="card-price">1 150 000 ₽</h2>
+                        <hr>
+                        <div class="card-info">
+                            <p>0.8 га (кратер)</p>
+                            <p>120 км до базы</p>
+                        </div>
+                        <button class="button card-btn">Купить участок</button>
+                    </div>
+                </div>
+
+                <!-- Карточка 4 -->
+                <div class="card">
+                    <div class="card-img">
+                        <img src="images/moon2.png" alt="Луна - ровный рельеф">
+                    </div>
+                    <div class="card-body">
+                        <h2 class="card-price">910 000 ₽</h2>
+                        <hr>
+                        <div class="card-info">
+                            <p>0.5 га (ровный рельеф)</p>
+                            <p>340 км до базы</p>
+                        </div>
+                        <button class="button card-btn">Купить участок</button>
+                    </div>
+                </div>
+
+                <!-- Карточка 5 -->
+                <div class="card">
+                    <div class="card-img">
+                        <img src="images/mars3.png" alt="Марс - вулканический">
+                    </div>
+                    <div class="card-body">
+                        <h2 class="card-price">1 610 000 ₽</h2>
+                        <hr>
+                        <div class="card-info">
+                            <p>1.0 га (вулканический)</p>
+                            <p>600 км до колонии</p>
+                        </div>
+                        <button class="button card-btn">Купить участок</button>
+                    </div>
+                </div>
+                
+                <!-- Карточка 6 -->
+                <div class="card">
+                    <div class="card-img">
+                        <img src="images/moon3.png" alt="Луна - кратер">
+                    </div>
+                    <div class="card-body">
+                        <h2 class="card-price">1 930 000 ₽</h2>
+                        <hr>
+                        <div class="card-info">
+                            <p>1.5 га (кратер)</p>
+                            <p>80 км до базы</p>
+                        </div>
+                        <button class="button card-btn">Купить участок</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Пагинация -->
+            <div class="pages">
+                <button class="page-btn page-left">🡠</button>
+                <button class="page-btn active">1</button>
+                <button class="page-btn">2</button>
+                <button class="page-btn">3</button>
+                <button class="page-btn page-more">...</button>
+                <button class="page-btn">9</button>
+                <button class="page-btn page-right">🡢</button>
+            </div>
+        </div>
+    </main>
+
+    <!-- Подвал сайта -->
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-links">
+                <h3 class="footer-title">О компании</h3>
+                <a href="#" class="footer-link">О нас</a>
+                <a href="#" class="footer-link">Новости и акции</a>
+                <a href="#" class="footer-link">Партнерам</a>
+            </div>
+            <div class="footer-links">
+                <h3 class="footer-title">Информация</h3>
+                <a href="#" class="footer-link">Условия покупки</a>
+                <a href="#" class="footer-link">Вопросы и ответы</a>
+                <a href="#" class="footer-link">Документы</a>
+            </div>
+            <div class="footer-links">
+                <h3 class="footer-title">Контакты</h3>
+                <p class="footer-contact">info@cosmoearth.com</p>
+                <p class="footer-contact">+7 999 763-67-21</p>
+            </div>
+        </div>
+        <div class="info">
+            <p>© 2026 Агентство по продаже земельных участков на Марсе и Луне</p>
+        </div>
+    </footer>
+</body>
+
+</html>

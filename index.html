@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Официальная продажа земельных участков на Марсе и Луне. Юридические документы, рассрочка платежа. Более 50 предложений в каталоге">
+    <meta name="keywords" content="участки на марсе, участки на луне, внеземная недвижимость, купить землю на марсе, купить землю на луне, космическая недвижимость">
+    <title>Главная страница</title>
+    
+    <!-- Open Grahg для соцсетей -->
+    <meta property="og:title" content="Купите участок мечты на Марсе или Луне">
+    <meta property="og:description" content="Первая официальная продажа недвижимости за пределами Земли. Официальные документы, рассрочка, более 50 участков в каталоге">
+    <meta property="og:image" content="images/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+
+<body>
+    <!-- Фон звездного неба -->
+    <div class="stars-bg"></div>
+
+    <!-- Шапка сайта -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+
+                <!-- Логотип -->
+                <a href="index.html" class="nav-logo">
+                    <img src="images/logo.png" alt="Лого" class="logo-icon">
+                    <div class="logo-title">
+                        Земельные участки на <span class="mars-word">Марсе</span> и <span class="moon-word">Луне</span>
+                    </div>
+                </a>
+
+                <!-- Меню -->
+                <label for="menu-toggle" class="menu">
+                    <img src="images/menu.png" alt="Меню">
+                </label>
+                <input type="checkbox" id="menu-toggle">
+
+                <!-- Навигация -->
+                <div class="nav-links">
+                    <a href="catalog.html" class="nav-link">Каталог</a>
+                    <a href="#why" class="nav-link">О компании</a>
+                    <a href="#footer" class="nav-link">Контакты</a>
+                    <a href="#" class="button">Войти</a>
+                </div>
+
+            </nav>
+        </div>
+    </header>
+
+    <!-- Начальная секция -->
+    <section class="started">
+        <img src="images/planet.jpeg" alt="Планеты" class="started-bg">
+        <div class="container">
+            <div class="started-content">
+                <p class="started-sub">Внеземная недвижимость</p>
+                <h1 class="started-title">Купите участок мечты на Марсе и Луне</h1>
+                <p class="started-text">Первая официальная продажа недвижимости за пределами Земли</p>
+                <div class="started-btn">
+                    <a href="catalog.html" class="button">Перейти в каталог</a>
+                    <a href="#process" class="button">Как это работает</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция преимуществ -->
+    <section id="why">
+        <div class="container">
+            <p class="section-sub">Наши преимущества</p>
+            <h2 class="section-title">Почему выбирают нас</h2>
+            <div class="blocks">
+
+                <!-- Карточка 1 -->
+                <div class="block">
+                    <div class="block-icon">
+                        <img src="images/ico-features.png" alt="Иконка документов">
+                    </div>
+                    <div class="block-text">
+                        <h3 class="block-title">Официальные документы</h3>
+                        <p class="block-sub">Полный пакет юридических документов с нотариальным заверением</p>
+                    </div>
+                </div>
+
+                <!-- Карточка 2 -->
+                <div class="block">
+                    <div class="block-icon">
+                        <img src="images/ico-shield.png" alt="Иконка документов">
+                    </div>
+                    <div class="block-text">
+                        <h3 class="block-title">Гарантия возврата</h3>
+                        <p class="block-sub">Если участок не подойдет - вернём деньги в течение 30 дней</p>
+                    </div>
+                </div>
+
+                <!-- Карточка 3 -->
+                <div class="block">
+                    <div class="block-icon">
+                        <img src="images/ico-headset.png" alt="Иконка документов">
+                    </div>
+                    <div class="block-text">
+                        <h3 class="block-title">Поддержка 24/7</h3>
+                        <p class="block-sub">Юристы и консультанты на связи в любое время суток</p>
+                    </div>
+                </div>
+
+                <!-- Карточка 4 -->
+                <div class="block">
+                    <div class="block-icon">
+                        <img src="images/ico-payroll.png" alt="Иконка документов">
+                    </div>
+                    <div class="block-text">
+                        <h3 class="block-title">Рассрочка платежа</h3>
+                        <p class="block-sub">Гибкие условия от 6 до 24 месяцев без переплат</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция процесса покупки -->
+    <section id="process">
+        <div class="container">
+            <p class="section-sub">Процесс покупки</p>
+            <h2 class="section-title">Как это работает</h2>
+            <div class="steps">
+
+                <!-- Шаг 1 -->
+                <div class="step">
+                    <div class="step-num">1</div>
+                    <div class="step-text">
+                        <h3 class="step-title">Выберите участок</h3>
+                        <p class="step-sub">Просмотр каталога и фильтрация по планете</p>
+                    </div>
+                </div>
+
+                <!-- Шаг 2 -->
+                <div class="step">
+                    <div class="step-num">2</div>
+                    <div class="step-text">
+                        <h3 class="step-title">Оформите договор</h3>
+                        <p class="step-sub">Оформление онлайн за 15 минут</p>
+                    </div>
+                </div>
+                
+                <!-- Шаг 3 -->
+                <div class="step">
+                    <div class="step-num">3</div>
+                    <div class="step-text">
+                        <h3 class="step-title">Оплатите участок</h3>
+                        <p class="step-sub">Просмотр каталога и фильтрация по планете</p>
+                    </div>
+                </div>
+
+                <!-- Шаг 4 -->
+                <div class="step">
+                    <div class="step-num">4</div>
+                    <div class="step-text">
+                        <h3 class="step-title">Получите документ</h3>
+                        <p class="step-sub">Свидетельство о праве собственности</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция перехода в каталог -->
+    <section class="road">
+        <div class="container">
+            <img src="images/galaxy.jpg" alt="Галактика">
+            <h2 class="road-title">Начните путь к своему участку</h2>
+            <p class="road-sub">Посмотрите полный каталог из более 50 предложений</p>
+            <a href="catalog.html" class="button">Перейти в каталог</a>
+        </div>
+    </section>
+
+    <!-- Подвал сайта -->
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-links">
+                <h3 class="footer-title">О компании</h3>
+                <a href="#" class="footer-link">О нас</a>
+                <a href="#" class="footer-link">Новости и акции</a>
+                <a href="#" class="footer-link">Партнерам</a>
+            </div>
+            <div class="footer-links">
+                <h3 class="footer-title">Информация</h3>
+                <a href="#" class="footer-link">Условия покупки</a>
+                <a href="#" class="footer-link">Вопросы и ответы</a>
+                <a href="#" class="footer-link">Документы</a>
+            </div>
+            <div class="footer-links">
+                <h3 class="footer-title">Контакты</h3>
+                <p class="footer-contact">info@cosmoearth.com</p>
+                <p class="footer-contact">+7 999 763-67-21</p>
+            </div>
+        </div>
+        <div class="info">
+            <p>© 2026 Агентство по продаже земельных участков на Марсе и Луне</p>
+        </div>
+    </footer>
+</body>
+
+</html>
